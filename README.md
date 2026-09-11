@@ -83,6 +83,4 @@ If you run it headlessly, a recording is automatically saved to `cypress/videos/
 - **No hard waits (`cy.wait(5000)`)** anywhere in this project. Cypress's built-in retry-ability means assertions like `.should('have.text', '1')` automatically re-check the DOM until they pass or time out — trusting that mechanism instead of fighting it with arbitrary sleeps is one of the clearest signals of Cypress fluency versus someone translating Selenium habits into Cypress syntax.
 - **The `uncaught:exception` handler in `support/e2e.js` is scoped and commented**, not a blanket "ignore everything" habit — it exists because saucedemo's `problem_user`/`performance_glitch_user` accounts are deliberately seeded with front-end quirks by Sauce Labs, unrelated to the flow under test.
 
-## Extending this framework
 
-The `CartPage` page object and additional fixture users (`lockedOutUser`, `problemUser`, `performanceGlitchUser`) are already scaffolded but not yet exercised by a spec — they're ready to support the negative-path, session, and checkout test cases documented in the accompanying Section B test case sheet, without needing to restructure the framework.
