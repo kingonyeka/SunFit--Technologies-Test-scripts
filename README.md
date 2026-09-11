@@ -1,6 +1,6 @@
 # SunFi QA Engineer Assessment — Cypress Automation
 
-Automates the login and add-to-cart flow on [saucedemo.com](https://www.saucedemo.com/) as required by Section C of the SunFi Technologies QA Engineer assessment.
+Automates the login and add-to-cart flow on [saucedemo.com](https://www.saucedemo.com/) as required by SunFi Technologies QA Engineer assessment.
 
 ## What this covers
 
