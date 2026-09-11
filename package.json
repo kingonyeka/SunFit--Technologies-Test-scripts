@@ -1,0 +1,14 @@
+{
+  "name": "sunfi-cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress automation suite for the SunFi Technologies QA Engineer assessment - covers login authentication and add-to-cart flow on saucedemo.com",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run --spec cypress/e2e/login-add-to-cart.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
